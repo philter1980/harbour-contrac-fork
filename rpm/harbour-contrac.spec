@@ -29,6 +29,7 @@ BuildRequires:  pkgconfig(keepalive)
 BuildRequires:  pkgconfig(nemonotifications-qt5)
 BuildRequires:  protobuf-compiler
 BuildRequires:  desktop-file-utils
+BuildRequires:  pkgconfig(sailfishsecrets)
 
 %description
 Exposure Notification app compatible with
