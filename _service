@@ -1,0 +1,13 @@
+<services>
+  <service name="obs_scm">
+    <param name="url">https://github.com/philter1980/harbour-contrac-fork.git</param>
+    <param name="scm">git</param>
+    <param name="filename">OBDFish</param>
+    <param name="revision">main</param>
+  </service>
+  <service name="tar" mode="buildtime"/>
+  <service name="recompress" mode="buildtime">
+    <param name="compression">gz</param>
+  </service>
+  <service name="set_version" mode="buildtime"/>
+</services>
